@@ -1,0 +1,91 @@
+package lt.jmarkus;
+
+public enum IbanCountries {
+    AD("AD"),
+    AE("AE"),
+    AL("AL"),
+    AT("AT"),
+    AZ("AZ"),
+    BA("BA"),
+    BE("BE"),
+    BG("BG"),
+    BH("BH"),
+    BR("BR"),
+    BY("BY"),
+    CH("CH"),
+    CR("CR"),
+    CY("CY"),
+    CZ("CZ"),
+    DE("DE"),
+    DK("DK"),
+    DO("DO"),
+    EE("EE"),
+    ES("ES"),
+    FI("FI"),
+    FO("FO"),
+    FR("FR"),
+    GB("GB"),
+    GE("GE"),
+    GI("GI"),
+    GL("GL"),
+    GR("GR"),
+    GT("GT"),
+    HR("HR"),
+    HU("HU"),
+    IE("IE"),
+    IL("IL"),
+    IQ("IQ"),
+    IS("IS"),
+    IT("IT"),
+    JO("JO"),
+    KW("KW"),
+    KZ("KZ"),
+    LB("LB"),
+    LC("LC"),
+    LI("LI"),
+    LT("LT"),
+    LU("LU"),
+    LV("LV"),
+    MC("MC"),
+    MD("MD"),
+    ME("ME"),
+    MK("MK"),
+    MR("MR"),
+    MT("MT"),
+    MU("MU"),
+    NL("NL"),
+    NO("NO"),
+    PK("PK"),
+    PL("PL"),
+    PS("PS"),
+    PT("PT"),
+    QA("QA"),
+    RO("RO"),
+    RS("RS"),
+    SA("SA"),
+    SC("SC"),
+    SE("SE"),
+    SI("SI"),
+    SK("SK"),
+    SM("SM"),
+    ST("ST"),
+    SV("SV"),
+    TL("TL"),
+    TN("TN"),
+    TR("TR"),
+    UA("UA"),
+    VG("VG"),
+    XK("XK")
+    ;
+
+    private final String countryCode;
+
+    IbanCountries(String countryCode) {
+        this.countryCode = countryCode;
+    }
+
+    public String getCountryCode() {
+        return countryCode;
+    }
+
+}
