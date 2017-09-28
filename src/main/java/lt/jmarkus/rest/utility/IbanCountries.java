@@ -1,4 +1,4 @@
-package lt.jmarkus;
+package lt.jmarkus.rest.utility;
 
 public enum IbanCountries {
     AD("AD"),

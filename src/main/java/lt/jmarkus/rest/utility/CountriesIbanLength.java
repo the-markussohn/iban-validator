@@ -1,4 +1,4 @@
-package lt.jmarkus;
+package lt.jmarkus.rest.utility;
 
 import java.util.Collections;
 import java.util.HashMap;

@@ -1,6 +1,12 @@
-package lt.jmarkus;
+package lt.jmarkus.rest.service;
 
 
+import lt.jmarkus.rest.utility.CountriesIbanLength;
+import lt.jmarkus.rest.utility.IbanCountries;
+import lt.jmarkus.rest.domain.Iban;
+import org.springframework.stereotype.Component;
+
+@Component
 public class IbanService {
     private final Iban iban;
 

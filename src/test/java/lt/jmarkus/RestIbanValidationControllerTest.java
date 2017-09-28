@@ -1,6 +1,7 @@
 package lt.jmarkus;
 
 
+import lt.jmarkus.rest.controller.RestIbanValidationController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

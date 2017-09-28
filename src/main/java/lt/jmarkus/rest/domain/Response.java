@@ -1,12 +1,9 @@
-package lt.jmarkus;
+package lt.jmarkus.rest.domain;
 
-import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
-@XmlType(namespace = "http://jmarkus.lt")
 @XmlRootElement
 public class Response implements Serializable {
 

@@ -1,16 +1,14 @@
-package lt.jmarkus;
+package lt.jmarkus.rest.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.xml.bind.annotation.XmlAnyElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlSeeAlso;
-import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 import java.util.List;
 
 @XmlRootElement (name = "ibans")
-@XmlType(namespace = "http://jmarkus.lt")
 @XmlSeeAlso(Iban.class)
 public class IbanWrapper implements Serializable{
 

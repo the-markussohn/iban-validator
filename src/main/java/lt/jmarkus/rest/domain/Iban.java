@@ -1,14 +1,12 @@
-package lt.jmarkus;
+package lt.jmarkus.rest.domain;
 
 import org.springframework.stereotype.Component;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 import java.io.Serializable;
 
 @Component
-@XmlType(namespace = "http://jmarkus.lt")
 @XmlRootElement(name = "iban")
 public class Iban implements Serializable{
 
